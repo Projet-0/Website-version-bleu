@@ -4,7 +4,7 @@
 body {
     color: #444444;
     font-weight: 400;
-    background: #ffffff;
+    background: #204B86;  /* Initialement blanc j'ai mis tout le fond en bleu  */
     font-family: 'Barlow', sans-serif;
 }
 
@@ -323,7 +323,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background: #ffffff;
+    background: #204B86;
     margin-bottom: 45px;
 }
 
@@ -649,7 +649,9 @@ a:focus {
     font-size: 45px;
     font-weight: 700;
     /*text-transform: capitalize;  Modifications pour enlever les majuscules de la page Contact dans envoyez nous vos suggestions */
+    color: #ffffff;
 }
+
 
 @media (max-width: 991.98px) {
     .section-header h2 {
@@ -677,6 +679,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    color:#FFFFFF;
 }
 
 .about .section-header {
@@ -718,6 +721,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 0 0;
+    color: #FFFFFF;  /* On applique un blanc dans tout le bloc, en revanche il n'y a que le <p> qui change, il faut réappliquer un blanc sur le h3 item*/
 }
 
 .service .service-item {
@@ -750,6 +754,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #FFFFFF; /* Changement de la couleur des titres de service en blanc*/
 }
 
 .service .service-item p {
@@ -955,10 +960,12 @@ a:focus {
 .location .location-text h3 {
     font-size: 18px;
     font-weight: 700;
+    color: #FFFFFF; /*Titre du paragraphe dans la page location.html devient blanc*/
 }
 
 .location .location-text p {
     margin-bottom: 5px;
+    color: #ffffff;  /* PAragraphe dans la page location.html devient blanc*/
 }
 
 .location .location-text p strong {
@@ -1160,6 +1167,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 5px;
+    color: #ffffff; /* Test pour les commentaires client leur nom en blanc*/
 }
 
 .testimonial .testimonial-text h4 {
@@ -1172,6 +1180,7 @@ a:focus {
 
 .testimonial .testimonial-text p {
     margin: 0;
+    color: #ffffff; /*TEST les commentaires clients sont blanc*/
 }
 
 .testimonial .testimonial-text p::before {
