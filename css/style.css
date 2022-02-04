@@ -4,7 +4,7 @@
 body {
     color: #444444;
     font-weight: 400;
-    background: #ffffff;
+    background: #204B86;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -323,7 +323,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background: #ffffff;
+    background: #204B86;
     margin-bottom: 45px;
 }
 
@@ -648,6 +648,7 @@ a:focus {
     margin: 0;
     font-size: 45px;
     font-weight: 700;
+    color: #ffffff;  /*On remet en blanc*/
     /*text-transform: capitalize;  Modifications pour enlever les majuscules de la page Contact dans envoyez nous vos suggestions */
 }
 
@@ -703,6 +704,7 @@ a:focus {
 
 .about .about-content ul li {
     margin-bottom: 5px;
+    color: #ffffff;  /*Element de la lsite changé */
 }
 
 .about .about-content ul li i {
@@ -750,12 +752,15 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #ffffff; /*Couleur ajouté*/
 }
 
 .service .service-item p {
     margin: 0;
+    color: #ffffff; /* Coleur ajouté*/
 }
 
+/*fin morceau ajouté*/
 
 /*******************************/
 /********** Facts CSS **********/
@@ -955,10 +960,12 @@ a:focus {
 .location .location-text h3 {
     font-size: 18px;
     font-weight: 700;
+    color: #ffffff;  /*On remet en blanc*/
 }
 
 .location .location-text p {
     margin-bottom: 5px;
+    color: #ffffff;  /*On remet en blanc*/
 }
 
 .location .location-text p strong {
@@ -1160,6 +1167,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 5px;
+    color: #ffffff;  /*Couleur rajouté*/
 }
 
 .testimonial .testimonial-text h4 {
@@ -1172,6 +1180,7 @@ a:focus {
 
 .testimonial .testimonial-text p {
     margin: 0;
+    color: #ffffff; /* Couleur rajouté*/
 }
 
 .testimonial .testimonial-text p::before {
@@ -2062,3 +2071,21 @@ a:focus {
 .footer .copyright p a:hover {
     color: #ffffff;
 }
+
+
+/*  Modif */
+
+.about h2 {
+
+    color: #ffffff;
+
+
+}
+
+.about p {
+
+    color: #ffffff;
+
+}
+
+
